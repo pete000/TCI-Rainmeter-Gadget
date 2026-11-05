@@ -4,7 +4,7 @@
 
 A fully automated Python pipeline that logs into the **TCI panel** (`internet.tci.ir/panel/`), solves the audio CAPTCHA, and feeds your remaining data and days into a lightweight, custom Rainmeter desktop gadget.
 
-## 📸 Preview
+## 📸 Preview 
 ![TCI Rainmeter Gadget](screenshot.png) 
 
 
@@ -23,7 +23,9 @@ A fully automated Python pipeline that logs into the **TCI panel** (`internet.tc
 
 ### 1. Python Dependencies
 Open a terminal in the project folder and install the dependencies:
-    pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 ### 2. Manual Downloads (Required)
 You must manually download these two files and place them in the root folder of this project:
