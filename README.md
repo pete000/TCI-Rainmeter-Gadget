@@ -63,3 +63,6 @@ schtasks /Create /TN "TCI Data Fetcher" /TR ""C:\Path\To\pythonw.exe" "C:\Path\T
 * **Data shows `0 / 0 GB`**: The script grabbed the HTML before TCI's JavaScript loaded the numbers. Open `tci_fetcher.py`, find `time.sleep(4)` right before `parse_stats`, and increase it to `time.sleep(6)`.
 * **`None of these selectors matched`**: TCI changed their login page. Run the script with `HEADLESS = False`, watch the browser, and update the CSS selectors in the `find_first()` section of the Python script.
 * **`Error:All 3 attempts failed`**: Check your proxy. Ensure your local proxy is running and routing to Iran properly.
+
+## 🙏 Credits
+- **TCI Captcha Auto-Solver** – Originally created by [NaxonM](https://greasyfork.org/en/users/1643438-naxonm) on GreasyFork. Licensed under the MIT License.
