@@ -6,7 +6,7 @@ A fully automated Python pipeline that logs into the **TCI panel** (`internet.tc
 
 ## 📸 Preview
 ![TCI Rainmeter Gadget](screenshot.png) 
-*(Upload a screenshot of your gadget to GitHub and name it `screenshot.png` to display it here)*
+
 
 ## ✨ Features
 * **Fully Automated:** Runs silently in the background via Windows Task Scheduler.
