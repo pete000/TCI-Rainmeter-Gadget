@@ -52,7 +52,9 @@ Open `tci_fetcher.py` and edit the top configuration block with your credentials
 
 ## ⏰ Automation (Task Scheduler)
 To make it run automatically every 30 minutes, open Command Prompt as Administrator and run:
-    schtasks /Create /TN "TCI Data Fetcher" /TR "\"C:\Path\To\pythonw.exe\" \"C:\Path\To\tci_fetcher.py\"" /SC MINUTE /MO 30 /RL HIGHEST /F
+```cmd
+schtasks /Create /TN "TCI Data Fetcher" /TR ""C:\Path\To\pythonw.exe" "C:\Path\To\tci_fetcher.py"" /SC MINUTE /MO 30 /RL HIGHEST /F
+```
 *(Make sure to replace `C:\Path\To\` with your actual file paths).*
 
 ## 🔧 Troubleshooting
